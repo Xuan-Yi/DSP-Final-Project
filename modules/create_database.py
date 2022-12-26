@@ -9,6 +9,7 @@ from typing import List, Dict, Tuple
 from tqdm import tqdm
 from scipy.io.wavfile import read
 
+from create_time_freq_map import create_time_freq_map as c_t_f_m
 from create_hashes import create_hashes as c_h
 
 songs = glob.glob('../audio/*.wav')
@@ -20,9 +21,11 @@ for idx, filename in enumerate(tqdm(sorted(songs))):
     song_name_dict[idx] = filename
     sample_rate, audio_data = read(filename)
 
-    # time_freq_map = create_time_freq_map(sample_rate, audio_data)
-    # time_freq_map = [(0, 25), (0, 50), (0, 100), ..., (1, 10), (2,800)]
-    hashes = c_h(time_freq_map, idx, 15, 10)
+    time_freq_map = c_t_f_m(sample_rate, audio_data)
+    hashes = c_h(time_freq_map, idx)
+
+    # print(time_freq_map)
+    # print(hashes)
 
     # For each hash, append it to the List for this hash
     for hash, id_time_pair in hashes.items():

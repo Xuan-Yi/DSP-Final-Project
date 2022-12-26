@@ -12,19 +12,22 @@
     Return:
         Hash table for the song.
 '''
-def create_hashes(time_freq_map:list, song_id:int, peaks_num:int, swnd_num:int) -> dict:
+def create_hashes(time_freq_map:list, song_id:int) -> dict:
     hashes = {}
     max_freq = 24_000    # Sampling rate: 48k Hz
     freq_bits = 10
 
     for idx, (time, freq) in enumerate(time_freq_map):
         # Iterate the next n pairs to produce hashes
-        n = peaks_num * (swnd_num+1)
-        for other_time, other_freq in time_freq_map[idx+1: idx+n+1]:
+        # n = peaks_num * (swnd_num+1)
+
+        for other_time, other_freq in time_freq_map[idx:]:
             diff = other_time - time
             # If time difference too small or large, ignore
-            if diff < 1 or diff > 10:
+            if diff < 1:
                 continue
+            if diff > 10:
+                break
             
             # Place the freq into 10 bits
             freq_10bit = freq / max_freq * (2**freq_bits)

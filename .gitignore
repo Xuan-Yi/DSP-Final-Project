@@ -1,7 +1,8 @@
 .vscode/
 
-# No commit for *.wav
+# No commit for *.wav *.mp3
 *.wav
+*.mp3
 music/
 audio/
 
