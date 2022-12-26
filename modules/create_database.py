@@ -20,8 +20,8 @@ for idx, filename in enumerate(tqdm(sorted(songs))):
     song_name_dict[idx] = filename
     sample_rate, audio_data = read(filename)
 
-    # time_freq_map = create_time_freq_map(audio_data, sample_rate)
-    # time_freq_map = [(0, 25), (1, 10), (2,800)]
+    # time_freq_map = create_time_freq_map(sample_rate, audio_data)
+    # time_freq_map = [(0, 25), (0, 50), (0, 100), ..., (1, 10), (2,800)]
     hashes = c_h(time_freq_map, idx, 15, 10)
 
     # For each hash, append it to the List for this hash
