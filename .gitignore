@@ -6,6 +6,11 @@
 music/
 audio/
 
+# No commit for database
+database/
+hashes_database.pickle
+song_name_dict.pickle
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

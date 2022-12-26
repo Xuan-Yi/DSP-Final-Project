@@ -16,7 +16,7 @@ def create_time_freq_map(sample_rate:int, audio_data) -> list:
     swnd_samples = int(swnd_length * sample_rate)
     # swnd_sample += swnd_sample % 2
     peaks_num = 15
-    spread_distance = 200
+    spread_distance = 100
 
     # Two channel to one channel
     if len(audio_data.shape) > 1:
