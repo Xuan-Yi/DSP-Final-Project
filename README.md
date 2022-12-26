@@ -2,6 +2,12 @@
 
 # **Note: Put your audio files into audio/**
 
+## Usage
+
+`python3 main.py {AUDIOFILE} [-build]`
+
+`-build` is used only when you want to update database! For example, you modified some parameters.
+
 ## parameters you can modified
 
 * create_hashes.py:
