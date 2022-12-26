@@ -1,21 +1,18 @@
 '''
-    Hash function: 32-bit int for value: | frequency f1 | frequency f2 | time difference |
-                                             10 bits        10 bits          12 bits
+    Hash function: 36-bit int for value: | frequency f1 | frequency f2 | time difference |
+                                             12 bits        12 bits          12 bits
     hash(value) = (song_id, time)
     
     Use to create hashes for a given point,
     with a set of points ahead in time up to swnd_num sampling windows length.
 
-    Arguments:
-        peaks_num: The number of peaks in a window.
-        swnd_num:  The number of sampling windows.
     Return:
         Hash table for the song.
 '''
 def create_hashes(time_freq_map:list, song_id:int) -> dict:
     hashes = {}
     max_freq = 24_000    # Sampling rate: 48k Hz
-    freq_bits = 10
+    freq_bits = 12
 
     for idx, (time, freq) in enumerate(time_freq_map):
         # Iterate the next n pairs to produce hashes

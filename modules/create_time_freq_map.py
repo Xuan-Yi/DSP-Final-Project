@@ -12,11 +12,11 @@ from scipy.signal import find_peaks, stft
 # sample_rate, audio_data = read("../audio/1.wav")
 
 def create_time_freq_map(sample_rate:int, audio_data) -> list:
-    swnd_length = 3    # seconds
+    swnd_length = 2    # seconds
     swnd_samples = int(swnd_length * sample_rate)
     # swnd_sample += swnd_sample % 2
     peaks_num = 15
-    spread_distance = 100
+    spread_distance = 200
 
     # Two channel to one channel
     if len(audio_data.shape) > 1:
@@ -40,7 +40,8 @@ def create_time_freq_map(sample_rate:int, audio_data) -> list:
         # Find peaks
         peaks, props = find_peaks(spectrum, prominence=0, distance=spread_distance)
 
-        largest_peaks = np.argpartition(props["prominences"], -peaks_num)[-peaks_num:]
+        top = min(len(props["prominences"]), peaks_num)
+        largest_peaks = np.argpartition(props["prominences"], -top)[-top:]
         for i in largest_peaks:
             peak = peaks[i]
             peak_frequency = f[peak]

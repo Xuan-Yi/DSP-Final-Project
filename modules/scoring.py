@@ -47,6 +47,8 @@ for hash, (_, sample_time) in hashes.items():
 scores = {}
 
 for song_id in range(0, len(song_name_dict)):
+    if song_id not in matches_per_song:
+        continue
     song_name = song_name_dict[song_id]
     
     # print(f"Total matches for {song_name}: {len( matches_per_song[song_id] )}")
