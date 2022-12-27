@@ -1,12 +1,13 @@
 # DSP-Final-Project
 
-# **Note: Put your audio files into audio/**
-
 ## Usage
 
-`python3 main.py {AUDIOFILE} [-build]`
+`python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]`
 
 `-build` is used only when you want to update database! For example, you modified some parameters.
+
+`{AUDIO_FILES_DIR}` points to the directory you put your audios for building the database.
+                    It is necessary when `-build` flag is given.
 
 ## parameters you can modified
 

@@ -1,5 +1,5 @@
 '''
-    Usage: python3 scoring.py [sample_audio_position]
+    Usage: python3 scoring.py {RECORDING_FILE}
 '''
 
 import pickle

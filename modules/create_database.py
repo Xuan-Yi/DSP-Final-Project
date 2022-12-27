@@ -1,10 +1,13 @@
 '''
     Generate a hash database for all the songs.
     Later used to find the match.
+    Usage: python3 create_database.py {AUDIO_FILE_DIR}
 '''
 
 import glob
 import pickle
+import os
+import sys
 from typing import List, Dict, Tuple
 from tqdm import tqdm
 from scipy.io.wavfile import read
@@ -12,7 +15,9 @@ from scipy.io.wavfile import read
 from create_time_freq_map import create_time_freq_map as c_t_f_m
 from create_hashes import create_hashes as c_h
 
-songs = glob.glob('../audio/*.wav')
+cwd = os.getcwd()
+os.chdir(sys.argv[1])
+songs = glob.glob('*.wav')
 song_name_dict = {}
 database: Dict[int, List[Tuple[int, int]]] = {}
 
@@ -34,7 +39,8 @@ for idx, filename in enumerate(tqdm(sorted(songs))):
         database[hash].append(id_time_pair)
 
 # print(database)
-with open("../database/hashes_database.pickle", "wb") as db:
+os.chdir(cwd)
+with open("./database/hashes_database.pickle", "wb") as db:
     pickle.dump(database, db, pickle.DEFAULT_PROTOCOL)
-with open("../database/song_name_dict.pickle", "wb") as songs:
+with open("./database/song_name_dict.pickle", "wb") as songs:
     pickle.dump(song_name_dict, songs, pickle.DEFAULT_PROTOCOL)
