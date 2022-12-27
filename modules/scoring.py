@@ -68,13 +68,16 @@ for song_id in range(0, len(song_name_dict)):
     scores[song_id] = max
 
 # print top five scores out
-top_five = sorted(scores.items(), key=lambda x: x[1][1], reverse=True)[:5]
-i = 0
-for song_id, score in top_five:
-    song = song_name_dict[song_id].rsplit(".", 1)[0]
-    if i == 0:    first = song
-    i += 1
-    print(f"{song}: {score[1]} points at time {score[0]}")
+with open("result.txt", "a", encoding="utf-8") as r:
+    top_five = sorted(scores.items(), key=lambda x: x[1][1], reverse=True)[:5]
+    i = 0
+    for song_id, score in top_five:
+        song = song_name_dict[song_id].rsplit(".", 1)[0]
+        if i == 0:    first = song
+        i += 1
+        print(f"{song}: {score[1]} points at time {score[0]}")
+        r.write(f"{song}: {score[1]} points at time {score[0]}\n")
 
-ans = sys.argv[1]
-print(f"\n{ans}: The song is {first}\n")
+    ans = sys.argv[1]
+    print(f"{ans}: The song is {first}\n")
+    r.write(f"{ans}: The song is {first}\n\n")

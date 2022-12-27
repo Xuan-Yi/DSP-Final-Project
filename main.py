@@ -28,7 +28,7 @@ def main():
         print("Usage: python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]")
         exit(1)
 
-    p = subprocess.Popen("python3 ./modules/scoring.py " + sys.argv[1], shell=True)
+    p = subprocess.Popen(f"python3 ./modules/scoring.py \"{sys.argv[1]}\"", shell=True)
     p.wait()
 
 if __name__ == "__main__":
