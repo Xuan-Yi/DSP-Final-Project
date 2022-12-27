@@ -76,8 +76,8 @@ with open("result.txt", "a", encoding="utf-8") as r:
         if i == 0:    first = song
         i += 1
         print(f"{song}: {score[1]} points at time {score[0]}")
-        r.write(f"{song}: {score[1]} points at time {score[0]}\n")
+        # r.write(f"{song}: {score[1]} points at time {score[0]}\n")
 
     ans = sys.argv[1]
-    print(f"{ans}: The song is {first}\n")
+    print(f"\nThe song is {first}\n")
     r.write(f"{ans}: The song is {first}\n\n")

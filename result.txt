@@ -1,0 +1,200 @@
+./test_data\1_1.wav: The song is 1
+
+./test_data\1_2.wav: The song is 1
+
+./test_data\A hollow shadow_1.wav: The song is a hollow shadow
+
+./test_data\A hollow shadow_2.wav: The song is a hollow shadow
+
+./test_data\alive_1.wav: The song is ALIVE
+
+./test_data\alive_2.wav: The song is ALIVE
+
+./test_data\avid_1.wav: The song is あなたがいることで
+
+./test_data\avid_2.wav: The song is Avid
+
+./test_data\choose me_1.wav: The song is Choose me
+
+./test_data\choose me_2.wav: The song is Choose me
+
+./test_data\connect_1.wav: The song is Connect
+
+./test_data\connect_2.wav: The song is Connect
+
+./test_data\guide_1.wav: The song is Guide
+
+./test_data\guide_2.wav: The song is 不過失去了一點點
+
+./test_data\I swear_1.wav: The song is 残響散歌
+
+./test_data\I swear_2.wav: The song is Guide
+
+./test_data\kickback_1.wav: The song is KICKBACK
+
+./test_data\kickback_2.wav: The song is KICKBACK
+
+./test_data\level_1.wav: The song is LEVEL
+
+./test_data\level_2.wav: The song is LEVEL
+
+./test_data\mixed nuts_1.wav: The song is Mixed Nuts
+
+./test_data\mixed nuts_2.wav: The song is Mixed Nuts
+
+./test_data\more strongly_1.wav: The song is more STRONGLY
+
+./test_data\more strongly_2.wav: The song is 怪物
+
+./test_data\my dearest_1.wav: The song is My Dearest
+
+./test_data\my dearest_2.wav: The song is My Dearest
+
+./test_data\nameless story_1.wav: The song is nameless story
+
+./test_data\nameless story_2.wav: The song is nameless story
+
+./test_data\no man's dawn_1.wav: The song is Avid
+
+./test_data\no man's dawn_2.wav: The song is No Man's Dawn
+
+./test_data\shall we dance_1.wav: The song is Shall we dance？
+
+./test_data\shall we dance_2.wav: The song is more STRONGLY
+
+./test_data\souvenir_1.wav: The song is SOUVENIR
+
+./test_data\souvenir_2.wav: The song is SOUVENIR
+
+./test_data\story_1.wav: The song is 失憶的金魚
+
+./test_data\story_2.wav: The song is story
+
+./test_data\あなたがいる_1.wav: The song is あなたがいることで
+
+./test_data\あなたがいる_2.wav: The song is あなたがいることで
+
+./test_data\あなたが隣_1.wav: The song is 転生したら剣でした
+
+./test_data\あなたが隣_2.wav: The song is あたしが隣にいるうちに
+
+./test_data\ないない_1.wav: The song is ないない
+
+./test_data\ないない_2.wav: The song is ないない
+
+./test_data\ゆずれ_1.wav: The song is ゆずれない
+
+./test_data\ゆずれ_2.wav: The song is ゆずれない
+
+./test_data\カワ_1.wav: The song is カワキヲアメク
+
+./test_data\カワ_2.wav: The song is 転生したら剣でした
+
+./test_data\ギリギリ_1.wav: The song is ギリギリRide it out
+
+./test_data\ギリギリ_2.wav: The song is ギリギリRide it out
+
+./test_data\ハニー_1.wav: The song is ハニージェットコースター
+
+./test_data\ハニー_2.wav: The song is ハニージェットコースター
+
+./test_data\ベテル_1.wav: The song is I swear
+
+./test_data\ベテル_2.wav: The song is ベテルギウス
+
+./test_data\不過失去_1.wav: The song is 不過失去了一點點
+
+./test_data\不過失去_2.wav: The song is 不過失去了一點點
+
+./test_data\你敢_1.wav: The song is 你敢不敢
+
+./test_data\你敢不敢_2.wav: The song is 你敢不敢
+
+./test_data\夜_1.wav: The song is 夜に駆ける
+
+./test_data\夜_2.wav: The song is 夜に駆ける
+
+./test_data\天燈_1.wav: The song is 天灯
+
+./test_data\天燈_2.wav: The song is 天灯
+
+./test_data\天黑黑_1.wav: The song is 天黑黑
+
+./test_data\天黑黑_2.wav: The song is 天黑黑
+
+./test_data\失憶_1.wav: The song is I swear
+
+./test_data\失憶_2.wav: The song is 那種朋友
+
+./test_data\失戀_1.wav: The song is 失恋ソング沢山聴いて 泣いてばかりの私はもう
+
+./test_data\失戀_2.wav: The song is 失恋ソング沢山聴いて 泣いてばかりの私はもう
+
+./test_data\失蹤_1.wav: The song is ギリギリRide it out
+
+./test_data\失蹤_2.wav: The song is LEVEL
+
+./test_data\如果_1.wav: The song is 如果雨之後
+
+./test_data\如果_2.wav: The song is 如果雨之後
+
+./test_data\怪物_1.wav: The song is 怪物
+
+./test_data\怪物_2.wav: The song is 怪物
+
+./test_data\打上_1.wav: The song is 打上花火
+
+./test_data\打上_2.wav: The song is 芽ぐみの雨
+
+./test_data\春_1.wav: The song is 春擬き
+
+./test_data\春_2.wav: The song is 失恋ソング沢山聴いて 泣いてばかりの私はもう
+
+./test_data\殘響_1.wav: The song is 残響散歌
+
+./test_data\殘響_2.wav: The song is 花藏亡靈
+
+./test_data\炎_1.wav: The song is 炎
+
+./test_data\炎_2.wav: The song is 芽ぐみの雨
+
+./test_data\留給你_1.wav: The song is 留給你的我從未
+
+./test_data\留給你_2.wav: The song is 留給你的我從未
+
+./test_data\痛哭_1.wav: The song is 痛哭的人
+
+./test_data\痛哭_2.wav: The song is 夜に駆ける
+
+./test_data\等待_1.wav: The song is 等待雨､
+
+./test_data\等待_2.wav: The song is ゆずれない
+
+./test_data\群青_1.wav: The song is 怪物
+
+./test_data\群青_2.wav: The song is 群青
+
+./test_data\花之塔_1.wav: The song is 花の塔
+
+./test_data\花之塔_2.wav: The song is Shall we dance？
+
+./test_data\花藏_1.wav: The song is 花藏亡靈
+
+./test_data\花藏_2.wav: The song is 花藏亡靈
+
+./test_data\芽_1.wav: The song is 芽ぐみの雨
+
+./test_data\芽_2.wav: The song is 芽ぐみの雨
+
+./test_data\轉生_1.wav: The song is 転生したら剣でした
+
+./test_data\轉生_2.wav: The song is 転生したら剣でした
+
+./test_data\那種朋友_1.wav: The song is 那種朋友
+
+./test_data\那種朋友_2.wav: The song is Guide
+
+./test_data\重感情_1.wav: The song is 重感情的廢物
+
+./test_data\重感情_2.wav: The song is 怪物
+

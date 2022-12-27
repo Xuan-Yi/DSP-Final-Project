@@ -12,7 +12,7 @@ from scipy.signal import find_peaks, stft
 # sample_rate, audio_data = read("../audio/1.wav")
 
 def create_time_freq_map(sample_rate:int, audio_data) -> list:
-    swnd_length = 2    # seconds
+    swnd_length = 3    # seconds
     swnd_samples = int(swnd_length * sample_rate)
     # swnd_sample += swnd_sample % 2
     peaks_num = 15
