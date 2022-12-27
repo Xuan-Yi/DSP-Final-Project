@@ -1,10 +1,12 @@
 # DSP-Final-Project
 
 ## Environment setting
-Please install the following packages first.
+1. Please install the following packages first.
 ```
 pip install tqdm glob pickle scipy
 ```
+2. Prepare some .wav files and put them into a directory.
+3. Record a .wav file and use the program to recognize it.
 
 ## Usage
 
