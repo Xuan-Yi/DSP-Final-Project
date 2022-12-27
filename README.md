@@ -1,8 +1,18 @@
 # DSP-Final-Project
 
+## Environment setting
+1. Please install the following packages first.
+```
+pip install tqdm glob pickle scipy
+```
+2. Prepare some .wav files and put them into a directory.
+3. Record a .wav file and use the program to recognize it.
+
 ## Usage
 
-`python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]`
+```
+python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]
+```
 
 `-build` is used only when you want to update database! For example, you modified some parameters.
 
