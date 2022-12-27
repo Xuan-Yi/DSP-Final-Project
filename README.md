@@ -29,6 +29,6 @@ spread_distance = 200
 ```
 
 **Try to make the difference between the answer and the candidates larger!**
+![image](https://user-images.githubusercontent.com/71302574/209648116-9e0dee44-08ec-4bb1-a7f0-7855e9e7ef30.png)
+![image](https://user-images.githubusercontent.com/71302574/209648193-cad1bde3-d0c7-4984-be10-7a289d3cba0a.png)
 
-![image](https://user-images.githubusercontent.com/71302574/209581424-e84a2e3f-2a7c-40c7-a231-b4093135447b.png)
-![image](https://user-images.githubusercontent.com/71302574/209581442-94ae38d2-c46b-41cc-ae82-c685cc6426b0.png)
