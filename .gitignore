@@ -3,8 +3,10 @@
 # No commit for *.wav *.mp3
 *.wav
 *.mp3
+*.m4a
 music/
 audio/
+test_data/
 
 # No commit for database
 database/

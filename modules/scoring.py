@@ -69,8 +69,12 @@ for song_id in range(0, len(song_name_dict)):
 
 # print top five scores out
 top_five = sorted(scores.items(), key=lambda x: x[1][1], reverse=True)[:5]
+i = 0
 for song_id, score in top_five:
-    print(f"{song_name_dict[song_id]}: {score[1]} points at time {score[0]}")
+    song = song_name_dict[song_id].rsplit(".", 1)[0]
+    if i == 0:    first = song
+    i += 1
+    print(f"{song}: {score[1]} points at time {score[0]}")
 
-first = song_name_dict[top_five[0][0]].split("/")[-1].split("\\")[-1]
-print(f"\nThe song is {first}\n")
+ans = sys.argv[1]
+print(f"\n{ans}: The song is {first}\n")
