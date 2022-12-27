@@ -1,8 +1,16 @@
 # DSP-Final-Project
 
+## Environment setting
+Please install the following packages first.
+```
+pip install tqdm glob pickle scipy
+```
+
 ## Usage
 
-`python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]`
+```
+python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]
+```
 
 `-build` is used only when you want to update database! For example, you modified some parameters.
 
