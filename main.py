@@ -11,11 +11,11 @@ def main():
     os.chdir(os.path.dirname(__file__))
     
     if len(sys.argv) >= 4 and sys.argv[2] == "-build":
-        p = subprocess.Popen("python3 ./modules/create_database.py " + sys.argv[3], shell=True)
+        p = subprocess.Popen(f"python ./modules/create_database.py \"{sys.argv[3]}\"", shell=False)
         p.wait()
 
     elif len(sys.argv) >= 3 and sys.argv[1] == "-build":
-        p = subprocess.Popen("python3 ./modules/create_database.py " + sys.argv[2], shell=True)
+        p = subprocess.Popen(f"python ./modules/create_database.py \"{sys.argv[2]}\"", shell=False)
         p.wait()
 
     elif os.path.exists("./database/hashes_database.pickle") == False:
@@ -28,7 +28,7 @@ def main():
         print("Usage: python3 main.py {RECORDING_FILE} [-build {AUDIO_FILES_DIR}]")
         exit(1)
 
-    p = subprocess.Popen(f"python3 ./modules/scoring.py \"{sys.argv[1]}\"", shell=True)
+    p = subprocess.Popen(f"python ./modules/scoring.py \"{sys.argv[1]}\"", shell=False)
     p.wait()
 
 if __name__ == "__main__":

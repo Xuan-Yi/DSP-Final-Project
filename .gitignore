@@ -7,6 +7,8 @@
 music/
 audio/
 test_data/
+result.txt
+*.docx
 
 # No commit for database
 database/
