@@ -11,11 +11,11 @@ def main():
     os.chdir(os.path.dirname(__file__))
     
     if len(sys.argv) >= 4 and sys.argv[2] == "-build":
-        p = subprocess.Popen("python3 ./modules/create_database.py " + sys.argv[3], shell=True)
+        p = subprocess.Popen("python ./modules/create_database.py " + sys.argv[3], shell=True)
         p.wait()
 
     elif len(sys.argv) >= 3 and sys.argv[1] == "-build":
-        p = subprocess.Popen("python3 ./modules/create_database.py " + sys.argv[2], shell=True)
+        p = subprocess.Popen("python ./modules/create_database.py " + sys.argv[2], shell=True)
         p.wait()
 
     elif os.path.exists("./database/hashes_database.pickle") == False:
