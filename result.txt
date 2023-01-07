@@ -1,0 +1,8 @@
+./test_data\打上花火.wav: The song is 打上花火
+
+./test_data\春擬き.wav: The song is 春擬き
+
+./test_data\打上花火.wav: The song is 打上花火
+
+./test_data\春擬き.wav: The song is 春擬き
+
