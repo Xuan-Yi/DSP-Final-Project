@@ -3,7 +3,7 @@
 ## Environment setting
 1. Please install the following packages first.
 ```
-pip install tqdm glob2 pickle-mixin scipy matplotlib
+pip install tqdm glob2 scipy
 ```
 2. Prepare some .wav files and put them into a directory.
 3. Record a .wav file and use the program to recognize it.
