@@ -1,4 +1,4 @@
-# DSP-Final-Project
+# 2022 Fall DSP-Final-Project: Shazams
 
 ## Environment setting
 1. Please install the following packages first.
